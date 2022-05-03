@@ -12,6 +12,6 @@ export const PrivateContent = ({ element }) => {
     return <Navigate to="/" replace />
   }
 
+  // render protected component
   return element
-
 }
